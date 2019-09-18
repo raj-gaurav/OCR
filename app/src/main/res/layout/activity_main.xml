@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="230dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/snap"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="51dp"
+             />
+
+        <Button
+            android:id="@+id/snap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="214dp"
+            android:text="Snap" />
+
+        <Button
+            android:id="@+id/detect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="211dp"
+            android:layout_marginEnd="65dp"
+            android:text="Detect" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="299dp"
+            android:hint="Content"
+            android:textColorHint="#fff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="#a6000000"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>
